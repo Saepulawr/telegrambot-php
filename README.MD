@@ -32,7 +32,7 @@ function main(){
 
 main();
 ?>
-
+```
 Save and run on your terminal
 -> php yourfile.php
 
