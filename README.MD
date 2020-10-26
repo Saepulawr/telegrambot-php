@@ -11,7 +11,7 @@ Use this file to handle incoming chat from your telegram bot.
 ----
 
 ## Usage Example ##
-
+```php
 <?php
 include "telegrambot.php";
 $config = array(
