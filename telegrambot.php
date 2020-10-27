@@ -79,6 +79,7 @@ Class TelegramBot{
         return json_decode(self::get(self::urlApi()."/getUpdates?offset=$offset&limit=$limit"));
     }
     public function sendMessage($chatID,$message){
+        $message = urlencode($message);
         self::get(self::urlApi()."/sendmessage?chat_id=$chatID&text=$message");
     }
     public function getUpdates(){
