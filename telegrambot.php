@@ -91,7 +91,7 @@ Class TelegramBot{
             $tmp = json_decode($tmp);
             if(empty($tmp)) $tmp=array();
         }
-        $lastUpdateID = array("plase don't edit or remove this data");
+        $lastUpdateID = array("please don't edit or remove this data");
         $res = self::collectData();
         if($res->ok){
             foreach($res->result as $data){
